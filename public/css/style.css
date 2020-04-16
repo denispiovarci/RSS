@@ -1,0 +1,46 @@
+html, body {
+    height: auto;
+    min-height: 100%;
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    overflow-x: hidden;
+    color: grey;
+}
+
+main {
+    padding: 50px 0;
+    min-height: calc(100vh - 100px);
+}
+
+.article-item {
+    border-bottom: 2px solid #d8d8d8;
+}
+
+.input-group-custom {
+    height: 40px;
+}
+
+.custom-input {
+    max-width: 350px;
+    width: 100%;
+}
+
+.custom-select{
+    max-width: 350px;
+    width: 100%;
+}
+
+@media(max-width: 650px) {
+    .input-group-custom {flex-wrap: wrap;height: auto}
+    .input-group-append {margin-top: 5px;}
+}
+
+.list{
+    font-size: 12px;
+}
